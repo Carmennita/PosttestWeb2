@@ -1,0 +1,173 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Dolce;
+}
+
+.beranda{
+    background-image: url(cat.png);
+    background-size: cover;
+    border-image: fill;
+    margin: 0;
+    padding: 0;
+}
+
+.teksop{
+    background-color: rgba(57, 56, 56, 0.046);
+    font-size: 13px;
+    padding: 0px 0px 100px 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.teksop2{
+    color: #f5851b;
+    font-size: 13px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Dolce Gargia;
+}
+
+.uteksop{
+    padding: 120px 25px 160px 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #f5851b;
+    text-align: center;
+    font-family: Dolce Gargia;
+}
+
+main{
+    background: rgba(145, 220, 255, 0.098);
+}
+
+.wrapper{
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 25px;
+    line-height: 110px;
+    font-weight: bold;
+    float: left;
+    @font-face {
+        font-family: Dolce;
+        src: url('Dolce Gargia.otf');
+    }
+    font-family: Dolce Gargia;
+    color: blanchedalmond;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    /* position: sticky; */
+    position: -webkit-sticky; 
+    top: 0;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: beige;
+    background-color: rgba(45, 45, 43, 0.082);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+
+
+h2{
+    font-family: Dolce;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #f5851b;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tentang{
+        text-align: justify;
+        padding: 60px 60px 60px 60px;
+        width: 700px;
+        height: 1080px;
+        box-shadow: 0 1px 13px rgba(86, 78, 66, 0.674);
+        background-color: rgb(255, 255, 255);
+        border: 20px;
+        border-radius: 15px;
+        margin: 70px 50px 50px 225px;
+}
+
+.kontak{
+    text-align: justify;
+        padding: 60px 60px 60px 60px;
+        width: 700px;
+        height: 500px;
+        box-shadow: 0 1px 13px rgba(86, 78, 66, 0.674);
+        background-color: rgb(255, 255, 255);
+        border: 20px;
+        border-radius: 15px;
+        margin: 70px 50px 50px 225px;
+}
+
+.about{
+    text-align: justify;
+    padding: 60px 60px 60px 60px;
+    width: 700px;
+    height: 500px;
+    box-shadow: 0 1px 13px rgba(86, 78, 66, 0.674);
+    background-color: rgb(255, 255, 255);
+    border: 20px;
+    border-radius: 15px;
+    margin: 70px 50px 50px 225px;
+}
+
+.lgin a{
+    text-decoration: none;
+    color: #f5851b;
+}
+
+/* footer{
+    position: bottom background;
+    padding:10px;
+    bottom: 0;
+    width: 100%;
+} */
